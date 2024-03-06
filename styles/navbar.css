@@ -1,0 +1,18 @@
+a {
+    color: #000000 !important;
+}
+
+.nav-item {
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.nav-button{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+#navbarsExample10{
+    display: none !important;
+}

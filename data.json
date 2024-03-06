@@ -1,0 +1,70 @@
+{
+    "sheep": [
+        {
+            "name": "White Fudge",
+            "birth_year": "2012",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "suffolk",
+            "weight": "120",
+            "price": "300",
+            "gender": "Ram",
+            "image": "./images/sheep1.jpg"
+        },
+        {
+            "name": "Brownie",
+            "birth_year": "2015",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "merino",
+            "weight": "110",
+            "price": "250",
+            "gender": "Ewe",
+            "image": "./images/sheep2.jpg"
+        },
+        {
+            "name": "Fluffykins",
+            "birth_year": "2018",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "dorset",
+            "weight": "130",
+            "price": "350",
+            "gender": "Ram",
+            "image": "./images/sheep3.jpg"
+        },
+        {
+            "name": "Daisy",
+            "birth_year": "2019",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "corriedale",
+            "weight": "125",
+            "price": "320",
+            "gender": "Ewe",
+            "image": "./images/sheep4.jpg"
+        },
+        {
+            "name": "Cotton",
+            "birth_year": "2017",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "romney",
+            "weight": "140",
+            "price": "380",
+            "gender": "Ram",
+            "image": "./images/sheep5.jpg"
+        },
+        {
+            "name": "Snowflake",
+            "birth_year": "2016",
+            "father": "unknown",
+            "mother": "unknown",
+            "breed": "lincoln",
+            "weight": "115",
+            "price": "280",
+            "gender": "Ewe",
+            "image": "./images/sheep6.jpg"
+        }
+    ]
+}
