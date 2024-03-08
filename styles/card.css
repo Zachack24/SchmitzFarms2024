@@ -2,20 +2,34 @@
 
 strong{ 
     font-family: "Damion", cursive;
-    font-size: 2rem;
+    font-size: 4vw;
     font-style: normal;
+    
+}
+
+
+.card-img-top{
+  border: 1px solid #202022;
+}
+
+.card-title
+{
+   text-align: center;
 }
 
 .card-text
 {
-    text-align: center;
+  font-family: "Roboto Mono", monospace;
+  
 }
 
 .card {
     
-    color: #ffffffda;
+    color: #ffffff;
     padding: 1.5rem;
-    background-color: #202022;
+    background: #202022 ;
+    border: 1px solid #ffffff;
+ 
     
     transform: scale(1);
     opacity: 1;
@@ -24,7 +38,7 @@ strong{
     display: flex;
     flex-direction: column;
 
- 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
     .text-body-secondary{
       font-family: "Roboto Mono", monospace;
@@ -62,6 +76,11 @@ strong{
   .text-body-secondary{
     color:#00c700 !important;
   }
+
+  .card-img-top{
+    border: 1px solid #00c700;
+  }
+  
 }
 
 

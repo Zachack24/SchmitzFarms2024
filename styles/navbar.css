@@ -34,6 +34,7 @@
 
 body {
   padding-top: 100px;
+  background-color: rgba(219, 204, 204, 0.493);
 }
 
 
@@ -46,7 +47,11 @@ header {
      
     
   }
-  
+
+  footer {
+    margin-top:4vw;
+  }
+
   .nav-link:hover{
     color: #00c700;
   }
