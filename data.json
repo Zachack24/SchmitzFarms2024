@@ -66,5 +66,24 @@
             "gender": "Ewe",
             "image": "./images/sheep6.jpg"
         }
+    ],
+    "team":[
+        {
+            "name": "Zach Schmitz",
+            "graduationTime": "May 2026",
+            "major": "Software Engineering",
+            "email": "zach24@iastate.edu",
+            "funFact": "I can rollerblade backwards",
+            "image": "./myotherimages/zach.jpg"
+        },
+        {
+            "name": "Blake Clabuagh",
+            "graduationTime": "May 2026",
+            "major": "Software Engineering",
+            "email": "clab22@iastate.edu",
+            "funFact": "",
+            "image": "./myotherimages/blake.jpg"
+        }
+
     ]
 }

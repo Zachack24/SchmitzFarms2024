@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Damion&family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Days+One&family=Madimi+One&display=swap');
 
 
 .nav-item {
     
-    padding-top: 10px !important;
+    padding-top: 15px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     font-family: "Days One", sans-serif;
@@ -23,7 +23,7 @@
 }
 
 .home-button{
-    padding:4px; 
+    margin:5px;
     border-radius:30px;
     border: none;
     width:60px; 
@@ -32,12 +32,13 @@
     transition: background-color .2s ease-in;
 }
 
-body{
-    padding-top: 100px;
+body {
+  padding-top: 100px;
 }
 
+
 header {
-    padding: 1rem;
+   
     position: fixed;
     width: 100%;
     top: 0;
@@ -61,7 +62,7 @@ header {
 
   .page-title {
     font-family: "Damion", cursive;
-    font-size: 10rem;
+    font-size: 10vw;
     margin-top: 100px;
     text-align: center;
   }
