@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Damion&family=Days+One&display=swap');
+
+strong{ 
+    font-family: "Damion", cursive;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.card-text
+{
+    text-align: center;
+}
+
+
+ .cards {    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    pointer-events: none;
+  }
+
+.card {
+    
+    color: #ffffffda;
+    padding: 1.5rem;
+    background-color: #202022;
+    
+    transform: scale(1);
+    opacity: 1;
+    transition: all 150ms ease-in-out; 
+    
+    display: flex;
+    flex-direction: column;
+
+    transform: rotate(-5deg);
+  }
+
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}

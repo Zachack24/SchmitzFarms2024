@@ -17,7 +17,7 @@ function loadSheep(mySheep) {
  // Read every Sheep from the array
  for (var i = 0; i<mySheep.sheep.length; i++){
 
-     let checkbox = "checkbox" + i.toString();
+ 
      let card = "card" + i.toString();
 
      let name = mySheep.sheep[i].name;
@@ -37,49 +37,33 @@ function loadSheep(mySheep) {
 
      // create Bootstrap card
      AddCardSheep.innerHTML = ` 
-     <input type="checkbox" id=${checkbox} class="form-check-input" checked>
-     <label for=${checkbox} class="form-check-label">Show Image ${i}</label>
 
-     <div  id=${card} class="card shadow-sm">
+     <div  id=${card} class="card shadow-md">
          <img src=${image} class="card-img-top" alt="..."></img>
          <div class="card-body">
-             <p class="card-text"> <strong>${name}</strong>, ${birth_year}</p>
-                 <div class="d-flex justify-content-between align-items-center">
-                     <div class="btn-group">
-                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                     </div>
-                     <small class="text-body-secondary">9 mins</small>
-                 </div>
+             <p class="card-text"> <strong>${name}</strong></p>
+             <p> ${gender} ${birth_year} | ${father} X ${mother}</p>
+             <p> Breed: ${breed} Weight: ${weight}</p>
+                 <div class="d-flex justify-content-between align-items-center"> 
+                    <button type="button" class="btn btn-sm btn-outline-secondary">More Info</button>
+                    <small class="text-body-secondary">$${price}.00</small>
+                </div>
          </div>
      </div>
      `;
      // append new division
      CardSheep.appendChild(AddCardSheep);
 
-     let cbox = document.getElementById(checkbox);
-     checkboxes.push(cbox);
      let ccard = document.getElementById(card);
      cards.push(ccard);
 
-     console.log(checkbox);
      console.log(card);
  } // end of for
- console.log(checkboxes);
+
  console.log(cards);
-
- checkboxes.forEach((checkboxParam, index) => {
-     console.log(index);
-
-     checkboxParam.addEventListener('change', () => {
-         if (checkboxParam.checked) {
-             cards[index].style.display = 'block'; // Show the card
-         } else {
-             cards[index].style.display = 'none'; // Hide the card
-         }
-     });
- });    
+   
 } // end of Function
+
 
 
 
