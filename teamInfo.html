@@ -26,9 +26,10 @@ strong{
 
 .card {
     
-    color: #ffffffda;
+    color: #202022; /* #ffffff */
     padding: 1.5rem;
-    background-color: #202022;
+     background: #eeecec ; /* #202022 */
+    border: 1px solid #ffffff;
     
     transform: scale(1);
     opacity: 1;
@@ -42,7 +43,7 @@ strong{
 
     .text-body-secondary{
       font-family: "Roboto Mono", monospace;
-      color:#202022 !important;
+      color:#eeecec !important;
       transition: color .2s ease-in;
     }
   
@@ -78,24 +79,24 @@ strong{
   }
 }
 #email{
-    color: #ffffffda;
-    text-decoration: none;
+    color: #202022;
+    text-decoration: underline;
     transition: all .2s ease-in;
 }
 #email:hover{
     color: #00c700;
-    text-decoration: underline;
+    
 }
 
     </style>
 
 
 </head>
-<body>
+<body  class=" h-100 text-center text-bg-dark">
 
     <!-- NAVBAR -->
     <header id="myHeader">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " aria-label="Twelfth navbar example">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary " aria-label="Twelfth navbar example">
 
         <div class="container-fluid">
 
@@ -160,6 +161,13 @@ strong{
                 
             </div>
         </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+    <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Schmitz Farms 2024</p></div>
+    </footer>
+    <!-- Footer-->
+
     </body>
         <script>
                     fetch("./data.json")

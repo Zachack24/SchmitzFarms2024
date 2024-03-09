@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-strong{ 
-    font-family: "Damion", cursive;
-    font-size: 4vw;
-    font-style: normal;
-    
-}
-
 
 .card-img-top{
-  border: 1px solid #202022;
+  /* border: 1px solid #202022; */
 }
 
 .card-title
 {
    text-align: center;
+   font-family: "Damion", cursive;
+   font-size: 4vw;
+   font-style: normal;
 }
 
 .card-text
@@ -25,9 +21,9 @@ strong{
 
 .card {
     
-    color: #ffffff;
+    color: #202022; /* #ffffff */
     padding: 1.5rem;
-    background: #202022 ;
+     background: #eeecec ; /* #202022 */
     border: 1px solid #ffffff;
  
     

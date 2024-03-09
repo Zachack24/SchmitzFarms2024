@@ -41,7 +41,7 @@ function loadSheep(data) {
      <div  id=${card} class="card shadow-md">
          <img src=${image} class="card-img-top" alt="..."></img>
          <div class="card-body">
-             <p class="card-title"> <strong>${name}</strong></p>
+             <p class="card-title"> ${name}</p>
              <p class="card-text"> ${gender} ${birth_year} | ${father} X ${mother}</p>
              <p class="card-text"> Breed: ${breed} Weight: ${weight}</p>
                  <div class="d-flex justify-content-between align-items-center"> 
@@ -69,8 +69,6 @@ function openCardPage(cardNumber){
     localStorage.setItem('cardNumber',cardNumber);
     window.location.href='cardPage.html';
 }
-
-
 
 
 
