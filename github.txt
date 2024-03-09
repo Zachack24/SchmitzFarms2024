@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+``
+=======
+https://zachack24.github.io/SchmitzFarms2024/index.html
+>>>>>>> b230017c79455d1b57b5c44e53679fc842747700

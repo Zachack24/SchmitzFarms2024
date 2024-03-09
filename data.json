@@ -95,27 +95,23 @@
     "farmers":[
         {
             "name": "John",
-            "age": 45,
-            "description": "John is the head of the family. He inherited the farm from his parents and has been farming since he was a young boy. He is knowledgeable about different farming techniques and is always looking for ways to improve the farm's productivity",
-            "image": "./family/"
+            "description": "John inherited the farm from his parents. He is knowledgeable about different farming techniques and is always looking for ways to improve the farm's productivity",
+            "image": "./family/john.jpg"
         },
         {
             "name": "Maggie",
-            "age": 43,
             "description": "Maggie is John's wife. She helps manage the farm and is also in charge of selling their produce at the local market. She is known for her delicious homemade jams and pies.",
-            "image": "./family/"
+            "image": "./family/gorl.jpg"
         },
         {
             "name": "Emily",
-            "age": 20,
             "description": "Emily is John and Maggie's eldest daughter. She is studying agriculture at university with the hope of modernizing their family farm with what she learns.",
-            "image": "./family/"
+            "image": "./family/youngg.jpg"
         },
         {
-            "name": "Sam",
-            "age": 17,
-            "description": "Sam is the younger son who loves working on the farm. He is responsible for taking care of the animals and is particularly fond of the horses.",
-            "image": "./family/"
+            "name": "Peter",
+            "description": "Peter is the Oldest son who loves working on the farm. He is responsible for taking care of the animals and is particularly fond of the horses.",
+            "image": "./family/boy.jpg"
         }
         ],
         "nav": [
