@@ -80,7 +80,7 @@
             "major": "Software Engineering",
             "email": "zach24@iastate.edu",
             "funFact": "I can rollerblade backwards",
-            "image": "./myotherimages/zach.jpg"
+            "image": "./myotherimages/zach.JPG"
         },
         {
             "name": "Blake Clabuagh",
@@ -88,7 +88,7 @@
             "major": "Software Engineering",
             "email": "clab22@iastate.edu",
             "funFact": "The first time I started programming was in college",
-            "image": "./myotherimages/blake.jpg"
+            "image": "./myotherimages/blake.JPG"
         }
 
     ],
