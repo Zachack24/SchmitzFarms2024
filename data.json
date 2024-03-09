@@ -96,22 +96,22 @@
         {
             "name": "John",
             "description": "John inherited the farm from his parents. He is knowledgeable about different farming techniques and is always looking for ways to improve the farm's productivity",
-            "image": "./family/john.jpg"
+            "image": "./images/family/john.jpg"
         },
         {
             "name": "Maggie",
             "description": "Maggie is John's wife. She helps manage the farm and is also in charge of selling their produce at the local market. She is known for her delicious homemade jams and pies.",
-            "image": "./family/gorl.jpg"
+            "image": "./images/family/gorl.jpg"
         },
         {
             "name": "Emily",
             "description": "Emily is John and Maggie's eldest daughter. She is studying agriculture at university with the hope of modernizing their family farm with what she learns.",
-            "image": "./family/youngg.jpg"
+            "image": "./images/family/youngg.jpg"
         },
         {
             "name": "Peter",
             "description": "Peter is the Oldest son who loves working on the farm. He is responsible for taking care of the animals and is particularly fond of the horses.",
-            "image": "./family/boy.jpg"
+            "image": "./images/family/boy.jpg"
         }
         ],
         "nav": [
