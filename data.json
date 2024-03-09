@@ -95,7 +95,7 @@
     "farmers":[
         {
             "name": "John",
-            "description": "John is the head of the family. He inherited the farm from his parents and has been farming since he was a young boy. He is knowledgeable about different farming techniques and is always looking for ways to improve the farm's productivity",
+            "description": "John inherited the farm from his parents. He is knowledgeable about different farming techniques and is always looking for ways to improve the farm's productivity",
             "image": "./family/john.jpg"
         },
         {
