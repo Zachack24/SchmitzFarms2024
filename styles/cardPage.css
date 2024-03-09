@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-strong{ 
-    font-family: "Damion", cursive;
-    font-size: 6vw;
-    font-style: normal;
-}
 
 #card-image{
   width: 45dvw;
@@ -13,7 +8,11 @@ strong{
 }
 
 .name-text{
-  text-align: center;
+  
+  font-family: "Damion", cursive;
+  font-size: 6vw;
+  font-style: normal;
+  
 }
 
 h5{
@@ -43,9 +42,9 @@ h5{
 }
 
 .ret-link {
-  color: #202022;
+  color: #fff;
   transition: color .2s ease-in; 
-  text-decoration: none;
+  
 }
 
 .ret-link:hover{

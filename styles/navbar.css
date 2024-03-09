@@ -34,6 +34,7 @@
 
 body {
   padding-top: 100px;
+  background-color: rgba(219, 204, 204, 0.493);
 }
 
 
@@ -46,7 +47,11 @@ header {
      
     
   }
-  
+
+  footer {
+    margin-top:4vw;
+  }
+
   .nav-link:hover{
     color: #00c700;
   }
@@ -63,7 +68,7 @@ header {
   .page-title {
     font-family: "Damion", cursive;
     font-size: 10vw;
-    margin-top: 100px;
+    text-shadow: 1px 1px 20px rgb(21, 255, 0);
     text-align: center;
   }
  
